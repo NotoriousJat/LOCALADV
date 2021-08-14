@@ -1,0 +1,13 @@
+.slection {
+    display: flex;
+    flex-wrap: initial;
+}
+.caption {
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 5px;
+    height: 80px;
+}
+.margiBtom{
+    margin-bottom: 30%;
+}

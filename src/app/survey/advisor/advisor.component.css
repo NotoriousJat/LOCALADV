@@ -1,0 +1,28 @@
+.btn-primary {
+    color: #999999;
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-primary:hover {
+    color: #FFF;
+    background-color: #225563;
+    border-color: #225563;
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.perlr {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.slection {
+    display: flex;
+    flex-wrap: initial;
+}

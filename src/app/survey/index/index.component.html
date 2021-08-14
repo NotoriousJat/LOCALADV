@@ -1,0 +1,51 @@
+<app-header></app-header>
+    <div class="mastheadindex d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <img src="/assets/img/icon-logo.png">
+            <br>
+            <br>
+            <h1 class="mb-1 fontSizeIndex"><b>Welcome to</b></h1>
+            <h1 class="mb-5 withclor"><b>Local Advisor</b></h1>        
+            <!-- Slider Start -->
+            <div class="firstSlider">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="row" >
+                        <div class="col-xs-offset-4 col-xs-8">
+                            <div class="carousel-inner">
+                                <ngb-carousel>
+                                    <ng-template ngbSlide *ngFor="let image of images">
+                                        <div class="carousel-content">
+                                            <div>                                        
+                                                <img [src]="image.src" alt="Random first slide">
+                                                <br>
+                                                <br>
+                                                <p class="mytext">{{ image.title }}</p>                                        
+                                            </div>
+                                        </div>
+                                    </ng-template>
+                                </ngb-carousel>                            
+                                
+                                <div class=" lowerTxt text-center">
+                                    <p>
+                                    your navigation history,shopping and search data are collected only and exclusively to maximize your experience and imporve the service. We will never sell or share your information with to the third parties.   
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>            
+            </div>
+    
+            <!-- End Slider -->
+    
+            <a class="btn btn-primary btn-lg " routerLink="/advisor">Let's start!</a>
+            <br>
+            <br>
+            <div class="last midle text-center">
+            <p class="haveLog small mb-0">Already have an account?<b>Log in</b></p>
+        
+            </div>
+        </div>
+    
+    </div>
+<app-footer></app-footer>

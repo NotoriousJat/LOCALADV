@@ -1,0 +1,11 @@
+.conFrntion{
+    margin-top: -40px;
+}
+.page-item.disabled .page-link {
+    color: #fff;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #00BEAC;
+    border-color: #dee2e6;
+    
+}

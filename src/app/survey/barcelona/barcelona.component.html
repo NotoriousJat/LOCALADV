@@ -1,0 +1,100 @@
+<app-header></app-header>
+
+
+<section class=" topBar ">
+    <div class="container">
+        <div class="row slection ">
+        <div class="col-md-6 col- topLeft">
+            <a routerLink="/traveling" ><img src="/assets/img/left-arrow.png "></a>
+        </div>
+        <div class="col-md-6 col- topRight">
+            <p>4<span class="listShow">/8</span></p>
+        </div>
+    </div>
+    </div>
+        
+    
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="progress-container">
+
+                    <div class="progress-bar" id="myBar"></div>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+</section>
+<section class="content-section" id="portfolio">
+        <div class="container ">
+            <div class="content-section-heading ">
+                <h3 class="text-secondary mb-0"><b>First time to Barcelona?</b></h3>
+                <br>
+                <p class="mb-5 experince">We'll adjust the experiences for you accordingly.</p>
+                <br>
+            </div>
+            <div class="m-auto">
+                <div class="row slection m-auto">
+                <div class="col-md-6 ">
+                    
+                        <div onclick="myFunction()" class="caption">
+                            
+                            <p  class="text-center innerTextClor"><b class="yesNo">Yes</b></p>
+                        </div>
+                        
+                    
+                </div>
+                <div class="col-md-6 margiBtom ">
+                    
+                        <div class="caption">
+                            
+                            <p class="text-center innerTextClor"><b class="yesNo">No</b></p>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+            </div>
+
+            <div class="row lastBtn nextbttn fixed">
+                <div class="col-md-5 col-sm-12">
+                    <a class="btn btn-primary btn-lg " routerLink="/interest" >Next</a>
+                </div>
+            </div>
+            
+
+        </div>
+
+       
+
+    </section>
+
+    
+    
+    
+    
+   
+    <!-- Bootstrap core JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- Core theme JS-->
+    <!-- <script src="js/scripts.js"></script> -->
+    
+
+    <!--Traveling -->
+    <script>
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script> 
+
+<app-footer></app-footer>

@@ -1,0 +1,8 @@
+.slection {
+    display: flex;
+    flex-wrap: initial;
+}
+.HighPace{
+    height: 100px;
+    margin-bottom: 7pc;
+}

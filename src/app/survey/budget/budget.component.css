@@ -1,0 +1,7 @@
+.slection {
+    display: flex;
+    flex-wrap: initial;
+}
+.myBudget {
+    margin-bottom: 30%;
+}

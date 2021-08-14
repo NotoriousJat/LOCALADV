@@ -1,0 +1,13 @@
+.spacinG{
+    margin-bottom: 25px;
+}
+.PrsntgaP{
+    margin-bottom: 25%;
+}
+.row.slection.m-auto.fixedMYtrip {
+    flex-wrap: initial;
+}
+.headerTrip {
+    display: flex;
+    flex-wrap: initial;
+}

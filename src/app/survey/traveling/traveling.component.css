@@ -1,0 +1,36 @@
+.slection {
+    display: flex;
+    flex-wrap: initial;
+}
+
+.topBar{
+    position: fixed;
+    width:100%;
+    z-index: 111111111;
+    background-color: #fff;
+    margin-top: -70px;
+}
+#portfolio{
+    
+    margin-top: 70px;
+}
+.SlectAndAdd {
+    display: flex;
+    flex-wrap: initial;
+}
+.caption {
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 5px;
+    height: 64px;
+    
+}
+p.TopRightListShow{
+    font-size: 14px;
+}
+.slection p{
+    margin: 0;
+    color: #235664;
+    font-weight: 400;
+    font-size: 16px;
+}
