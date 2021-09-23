@@ -2,3 +2,13 @@
     background-color: #fff;
     padding: 8px 0px;
 }
+.pdingMiddle{
+    padding: 0;
+    text-align: center;
+}
+.logoRight {
+    vertical-align: middle;
+    border-style: none;
+    float: right;
+    height: 45px;
+}

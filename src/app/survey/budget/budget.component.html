@@ -4,10 +4,10 @@
     <div class="container">
         <div class="row slection ">
         <div class="col-md-6 col- topLeft">
-            <a routerLink="/discover" ><img src="/assets/img/left-arrow.png "></a>
+            <a routerLink="/discover" ><img src="/assets/img/left-arrow.png " width="15px"></a>
         </div>
         <div class="col-md-6 col- topRight">
-            <p>7<span class="listShow">/8</span></p>
+            <p>8<span class="listShow">/8</span></p>
         </div>
     </div>
     </div>
@@ -15,10 +15,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="progress-container">
-
-                    <div class="progress-bar" id="myBar"></div>
-                </div>
+                <div class="progress01">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
 
             </div>
 
@@ -33,94 +34,69 @@
                 <h3 class="text-secondary mb-0"><b>What's your estimate budget?</b></h3>
                 <br>
                 <p class="mb-5 later">You can edit it later.</p>
+                <p class="mb-5 later">We will match your budget with your activities and make the most of it.</p>
                 <br>
             </div>
             <div class="m-auto">
                 <div class="row slection ">
-                <div class="col-md-6 ">
-                    
-                        <div class="caption">
+                <div class="col-md-6 " (click)="clickFunction('low cost')">
+                        <div class="caption01">
                             <p  class="text-center innerTextClor"><b class="lowSize">Low cost</b></p>
                         </div>
-                        
-                    
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-md-6 " (click)="clickFunction('family style')">
                     
-                        <div class="caption">
+                        <div class="caption01">
                             
                             <p class="text-center innerTextClor"><b class="lowSize">family style</b></p>
-                            
                         </div>
-                    
                 </div>
             </div>
             <br>
             <div class="row slection ">
-                <div class="col-md-6  ">
-                    
-                        <div class="caption">
-                            
+                <div class="col-md-6" (click)="clickFunction('i can indulge')">
+                        <div class="caption01">
                             <p class="text-center innerTextClor"><b class="lowSize">I can indulge </b></p>
                         </div>
-                        
-                    
                 </div>
                 <div class="col-md-6 ">
                     
-                        <div class="caption">
+                        <div class="caption01">
                             
-                            <p onclick="myFunction()" class="text-center innerTextClor"><b class="lowSize">Custom</b></p>
+                            <p (click)="myFunction()" class="text-center innerTextClor"><b class="lowSize">Custom</b></p>
                             
                         </div>
                 </div>
             </div>
 
             
-            <div class="ShowHide" id="Budget">
+            <div class="ShowHide" id="Budget" *ngIf="toggleOn">
                 <br>                    
                 <h3 class="text-secondary mb-0"><b class="Semibld">make the most of:</b></h3>
                 <div class="myBudget">
                     <div class="row SlectAndAdd ">
                         <div class="col-md-12">
-                            <form >
+            <form [formGroup]="budgetForm" (ngSubmit)="onSubmit()">
                 <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Total budget" name="search">
+                  <input type="text" class="form-control" placeholder="Total budget" formControlName="budget">
                   <div class="input-group-btn">
                     <button class="btn btn-default" type="submit"><b>€</b></button>
                   </div>
                 </div>
               </form>
               <br>
-
                         </div>
-                        
-                        
                     </div>
-                    
                 </div>
             </div>
-            
             </div>
-
             <div class="row lastBtn nextbttn fixed">
                 <div class="col-md-5 col-sm-12">
-                    <a class="btn btn-primary btn-lg " routerLink="/loder"  >Get activities!</a>
+                    <button id="budget" class="btn btn-primary btn-lg "routerLinkActive="active" [disabled]="!next" routerLink="/loder"  >Get activities!</button>
                 </div>
             </div>
-            
-
         </div>
-
-       
-
     </section>
-
-    
-    
-    
-    
-   
     <!-- Bootstrap core JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -129,15 +105,4 @@
     
 
     <!--Traveling -->
-    <script>
-function myFunction() {
-var x = document.getElementById("Budget");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script> 
-
 <app-footer></app-footer>

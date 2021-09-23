@@ -2,43 +2,55 @@
 
 
     <main class="mainDiv">
-    <section class="container">
-        <div class="backIcon">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      <section class=" topBarWelcome ">
+        <div class="container">
+            <div class="row slection ">
+            <div class="col-md-5 col- topLeft">
+                <a routerLink="/singup" ><img src="/assets/img/left-arrow.png " width="15px"></a>
+            </div>
+            <div class="col-md-2 col- ">
+                
+            </div>
+            <div class="col-md-5 col- topRight">
+                
+            </div>
+        </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container SignInUP">
         <form>
-  <div class="form-group col-10">
-    <h3 class="text-secondary mb-0"><b>Sign up</b></h3>
+  <div class="form-group pl-0 pr-0 col-12">
+    <h3 class="text-secondary mb-0"><b>Sign up</b>
+      <img class="logoRight" src="/assets/img/LOGO LADV 2-short.svg"></h3>
     <label class="phoneDetail" for="exampleInputEmail1">Phone</label>
+    <form [formGroup]="userForm" (click)="onClick()">
     <div class="container">
         <div class="phoneNo row">
-        <div class="col-1">
-            <input type="number" class="form-control shotBox" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="+34">
+        <div class="col-2 p-0">
+            <input type="number" class="form-control pdingMiddle shotBox" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="+34">
         </div>
-        <div class="col-9">
-            <input type="number" class="form-control LongBox " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="000 000 000">
+        <div class="col-10 pr-0">
+            <input type="number" class="form-control LongBox " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="000 000 000" formControlName="phone_number">
         </div>
-        
+      </div>
     </div>
-    </div>
+  </form>
     
     
-    <small id="emailHelp" class="form-text text-muted">Some of the tours you book will required your phone number so they can contact you</small>
+    <small id="emailHelp" class="form-text text-muted">Some of the tours you book will required your phone number so they can contact you ☺️</small>
   </div>
   <div class="form-group">
     
     <label class="phoneDetail" for="exampleInputEmail1">your city of origin</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="barcelona">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Barcelona">
     
   </div>
   <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" (change)="bulk($event)">
     <label class="form-check-label" for="exampleCheck1"> I want to subscribe to the Local Advisor bulletin to find incredible offers and information about travel </label>
   </div>
   <div class="form-group form-check ">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" [checked]="check">
     <label class="form-check-label" for="exampleCheck1"> I declare to having read and accepted the terms and condition of Local Advisor and its privacy policy.   </label>
   </div>
 </form>
@@ -49,7 +61,7 @@
                            
         <div class="row  back fixed">
           <div class="col-md-5 col-sm-12">
-              <a class="btn btn-primary btn-lg " routerLink="/login"  >Sign up</a>
+              <button class="btn btn-primary btn-lg " routerLinkActive="active" routerLink="/loder2" [disabled]="!next" >Sign up</button>
           </div>
       </div>
       

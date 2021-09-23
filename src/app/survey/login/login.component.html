@@ -1,17 +1,27 @@
 <app-header></app-header>
 
     <main class="mainDiv">
-    <section class="container">
-        <div class="backIcon">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        </div>
-    </section>
-    <section class="container">
+        <section class=" topBarWelcome ">
+            <div class="container">
+                <div class="row slectionSpcl ">
+                <div class="col-md-5 col- topLeft">
+                    <a routerLink="/loder2" ><img src="/assets/img/left-arrow.png " width="15px"></a>
+                </div>
+                <div class="col-md-2 col-  text-center">
+                    <img src="/assets/img/LOCALADVISOR-black.svg ">
+                </div>
+                <div class="col-md-5 col- topRight">
+                    
+                </div>
+            </div>
+            </div>
+        </section>
+    <section class="container SignInLogin">
         <form>
   <div class="form-group">
     <h3 class="text-secondary mb-0"><b>Log in</b></h3>
     <label class="emailSignIn" for="exampleInputEmail1">E-mail</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Johndoe@mail.com">
     <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
   </div>
   <div class="form-group">
@@ -36,7 +46,7 @@
                         
                             <div class="captiondf NewLogin">
                                 <div class="row  ">
-                                        <a class=" Login01 btn btn-primary btn-lg " routerLink="/startng "> Log in</a>
+                                        <a class=" Login01 btn btn-primary btn-lg " routerLinkActive="active" routerLink="/start "> Log in</a>
                                 </div>
                             </div>
                             
@@ -47,7 +57,7 @@
                         
                             <div class="captiondf NewLogin">
                                 <div class="row  ">
-                                        <a class=" Login02 btn btn-primary btn-lg " routerLink="/start"><i class="fa fa-apple" aria-hidden="true"></i> Continue with Apple</a>
+                                        <a class=" Login02 btn btn-primary btn-lg " routerLinkActive="active" routerLink="/start"><img src="https://img.icons8.com/material-rounded/24/000000/mac-os.png"/> &nbsp;&nbsp;&nbsp;&nbsp;Continue with </a>
                                 </div>
                             </div>
                         
@@ -57,7 +67,7 @@
                         
                             <div class="captiondf ">
                                 <div class="row  ">
-                                        <a class=" Login03 btn btn-primary btn-lg " routerLink="/start"><i class="fa fa-google" aria-hidden="true"></i> Continue with Google</a>
+                                        <a class=" Login03 btn btn-primary btn-lg " routerLinkActive="active" routerLink="/start"><img src="https://img.icons8.com/color/24/000000/google-logo.png"/>&nbsp;&nbsp;&nbsp;&nbsp; Continue with </a>
                                 </div>
                             </div>
                         
@@ -70,7 +80,7 @@
     </section>
     <section>
                 <div class="lastLogin text-center m-auto">
-                   <a href="Start.html"> <p class="LastTEXt">Don't have an account?<b> Sign up with email</b></p></a>
+                   <a href="Start.html"> <p class="LastTEXt">Don't have an account?<br><b> Sign up with email</b></p></a>
                     
                 </div>
             </section>

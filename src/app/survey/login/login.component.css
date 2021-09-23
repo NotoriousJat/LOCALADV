@@ -1,3 +1,7 @@
 .NewLogin{
-    margin-bottom: 6px;
+    margin-bottom: 20px;
+}
+.slectionSpcl {
+    display: flex;
+    flex-wrap: initial;
 }

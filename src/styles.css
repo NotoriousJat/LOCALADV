@@ -38,10 +38,13 @@
     scroll-behavior: smooth;
   }
 }
+    html,body {
+      overflow-x: hidden;
+    }
 
 body {
   margin: 0;
-  font-family: "lato";
+  /* font-family: "lato"; */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -50,7 +53,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -58,16 +60,10 @@ hr {
   border: 0;
   opacity: 0.25;
 }
-
 hr:not([size]) {
   height: 1px;
 }
 /* You can add global styles to this file, and also import other style files */
-.masthead{
-    background: #fff;
-    padding-top: 70px;
-}
-
 .withclor{
     color: #00BEAC;
 }
@@ -87,26 +83,10 @@ width:100%;
 }
 .carousel-indicators,.carousel-content{
 text-align:center;
-
 }
 .carousel-indicators{
 padding:0;
-
 }
-.carousel-content {
-color: black;
-display: flex;
-align-items: center;
-padding: 20px 0 50px 0;
-}
-
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
-
 .mytext {
 border-left: medium none;
 font-size: 16px;
@@ -116,8 +96,8 @@ margin-bottom: 10px;
 padding: 0 !important;
 text-align: center;
 color: #000;
+height: 85px;
 }
-
 .carousel-indicators li {
 background: none repeat scroll 0 0 #ccc;
 border: medium none;
@@ -126,6 +106,7 @@ display: inline-block;
 float: none;
 height: 10px;
 width: 10px;
+margin: 0px 7px;
 }
 
 .carousel-indicators li:last-child {
@@ -138,7 +119,7 @@ border-radius: 1000px;
 .carousel-indicators .active {
 width: 12px;
 height: 12px;
-margin: 0;
+margin: 0px 7px;
 background-color: #00BEAC;
 }
 .lowerTxt{
@@ -155,23 +136,12 @@ font-size: 16px;
 text-decoration: underline;
 font-size: 16px;
 }
-.carousel-indicators li {
-  width : 10px!important;
-  height: 10px !important;
-  border-radius: 50% !important
-}
+
 .text-secondary{
   color: #000!important;
   font-size: 24px;
   font-weight: bold;
 }
-.carousel-indicators li {
-  width : 10px!important;
-  background-color: black;
-  height: 10px !important;
-  border-radius: 50% !important
-}
-
 .carousel-indicators .active {
   width : 12px!important;
   background-color:#00BEAC;
@@ -181,13 +151,13 @@ font-size: 16px;
 /* Edit by malik */
 body {
   font-family: Metropolis;
-  
+  overflow-x: hidden;
 }
 @import url(//db.onlinewebfonts.com/c/c02d97eb2b2899bdb0d87b182a64333d?family=Metropolis);
         @font-face {font-family: "Metropolis"; src: url("//db.onlinewebfonts.com/t/c02d97eb2b2899bdb0d87b182a64333d.eot"); src: url("//db.onlinewebfonts.com/t/c02d97eb2b2899bdb0d87b182a64333d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c02d97eb2b2899bdb0d87b182a64333d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c02d97eb2b2899bdb0d87b182a64333d.woff") format("woff"), url("//db.onlinewebfonts.com/t/c02d97eb2b2899bdb0d87b182a64333d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c02d97eb2b2899bdb0d87b182a64333d.svg#Metropolis") format("svg"); }
 
-        @import url(//db.onlinewebfonts.com/c/278e01d69f6bb01ebcc25e546d66c4f3?family=Metropolis);
-        @font-face {font-family: "Metropolis"; src: url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.eot"); src: url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.woff") format("woff"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.svg#Metropolis") format("svg"); }
+        /* @import url(//db.onlinewebfonts.com/c/278e01d69f6bb01ebcc25e546d66c4f3?family=Metropolis);
+        @font-face {font-family: "Metropolis"; src: url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.eot"); src: url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.woff") format("woff"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/278e01d69f6bb01ebcc25e546d66c4f3.svg#Metropolis") format("svg"); } */
         .masthead{
           background: #fff;
           padding-top: 70px;
@@ -212,23 +182,25 @@ body {
       .row .col-xs-8 ,.carousel-content div{
       width:100%;
       }
-      .bullets,.carousel-content{
-      text-align:center;
-      
-      }
       .listShow{
           color: #999999;
       }
-      .bullets{
-      padding:0;
-      bottom: 10px;
-      }
-      .carousel-content {
-      color: black;
-      display: flex;
-      align-items: center;
-      padding: 20px 0 50px 0;
-      }
+      .carousel-control-next, .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+        cursor: pointer;
+        /* display: none; */
+    }
       
       .name {
       color: black;
@@ -258,7 +230,7 @@ body {
       .carousel-indicators .active {
       width: 12px;
       height: 12px;
-      margin: 0;
+      margin: 0px 7px;
       background-color: #00BEAC;
       }
       
@@ -281,18 +253,14 @@ body {
       border-radius: 5px;
       padding: 5px;
       height: 160px;
+      color: #235664;
+      cursor: pointer;
       }
       .slection{
       display: flex;
       
-      
       }
-      .innerTextClor{
-      color: #2D5D6B;
-      }
-      
       .topRight p {
-      
       float: right;
       }
       .caption:hover{
@@ -302,6 +270,14 @@ body {
       padding: 5px;
       background-color: #00BEAC;
       box-shadow: rgb(0 190 172) 0px 3px 19px -5px, rgb(0 0 0 / 10%) 0px 1px 0px 1px;
+      }
+      .caption-active{
+        color: #fff;
+        border-radius: 5px;
+        border: 2px solid #00BEAC;
+        padding: 5px;
+        background-color: #00BEAC;
+        box-shadow: rgb(0 190 172) 0px 3px 19px -5px, rgb(0 0 0 / 10%) 0px 1px 0px 1px;
       }
       .lastBtn{
       margin-top: 64%;
@@ -328,15 +304,13 @@ body {
       /* For mobile phones: */
       [class*="col-"] {
       width: 100%;
+      
       }
       }
       .several{
       font-size: 16px;
       }
-      .masthead{
-        background: #fff;
-        padding-top: 70px;
-    }
+      
 
     .withclor{
         color: #00BEAC;
@@ -363,45 +337,24 @@ align-items: center;
 padding: 20px 0 50px 0;
 }
 
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
 .topBar{
     position: fixed;
     width:100%;
     z-index: 111111111;
     background-color: #fff;
-    margin-top: -70px;
+    margin-top: -93px;
+    padding: 18px 0px;
 }
 #portfolio{
     
     margin-top: 70px;
 }
 
-.bullets li {
-background: none repeat scroll 0 0 #ccc;
-border: medium none;
-cursor: pointer;
-display: inline-block;
-float: none;
-height: 10px;
-width: 10px;
-}
 
-.bullets li:last-child {
-margin-right: 0;
-}
-
-.bullets li {
-border-radius: 1000px;
-}
 .carousel-indicators .active {
 width: 12px;
 height: 12px;
-margin: 0;
+margin: 0 7px;
 background-color: #00BEAC;
 }
 
@@ -421,13 +374,7 @@ width: 0%;
 float: right;
 }
 
-.lastBtn{
-margin-top: auto;
-background-color: #fff;
-padding: 20px 0 20px 0;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-border-radius: 25px 25px 0px 0px;
-}
+
 /*Calendr Css*/
 @import url(https://fonts.googleapis.com/css?family=Muli:400,300);
 body { margin-top: 3%; }
@@ -437,14 +384,10 @@ max-width: 300px;
 }
 .calendar {
 margin: auto;
-font-family:'Muli', sans-serif;
+font-family:'Metropolis';
 font-weight: 400;
 }
-.calendar_content, .calendar_weekdays, .calendar_header {
-position: relative;
-overflow: hidden;
-line-height: 3;
-}
+
 .calendar_weekdays div {
 display:inline-block;
 vertical-align:top;
@@ -484,22 +427,8 @@ background-color: #225563;
 color: #fff;
 border-radius: 5px;
 }
-.calendar_header {
-width: 100%;
-text-align: center;
-background: #F2F2F2;
-padding: 25px 0 20px 0px;
-}
-.calendar_header h2 {
-padding: 0 10px;
-font-family:'Muli', sans-serif;
-font-weight: 600;
-font-size: 16px;
-color: #000;
-float:left;
-width:70%;
-margin: 0 0 10px;
-}
+
+
 button.switch-month {
 background-color: transparent;
 padding: 0;
@@ -544,49 +473,7 @@ width:100%;
 text-align:center;
 
 }
-.bullets{
-padding:0;
-bottom: 10px;
-}
-.carousel-content {
-color: black;
-display: flex;
-align-items: center;
-padding: 20px 0 50px 0;
-}
 
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
-
-
-
-.bullets li {
-background: none repeat scroll 0 0 #ccc;
-border: medium none;
-cursor: pointer;
-display: inline-block;
-float: none;
-height: 10px;
-width: 10px;
-}
-
-.bullets li:last-child {
-margin-right: 0;
-}
-
-.bullets li {
-border-radius: 1000px;
-}
-.carousel-indicators .active {
-width: 12px;
-height: 12px;
-margin: 0;
-background-color: #00BEAC;
-}
 
 /* second next page add*/
 
@@ -608,13 +495,7 @@ padding: 15px 0px;
 float: right;
 }
 
-.lastBtn{
-margin-top: auto;
-background-color: #fff;
-padding: 20px 0 20px 0;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-border-radius: 25px 25px 0px 0px;
-}
+
 /*Traveling*/
 
 /* For desktop: */
@@ -660,6 +541,8 @@ background-color: #fff;
 margin-top: 20px;
 border-bottom: 1px solid #E5F8F6;
 }
+
+
 .myadd03{
 width: 100%;
 padding: 35px 0;
@@ -667,6 +550,7 @@ text-align: center;
 background-color: #fff;
 margin-top: 20px;
 border-bottom: 1px solid #E5F8F6;
+padding-bottom: 25%;
 }
 .SlectAndAdd{
 display: flex;
@@ -705,11 +589,22 @@ font-size: 16px;
 }
 .fontSize{
 font-size: 16px;
-color: #225563;
+
 }
 .adult{
 font-size: 16px;
 }
+.btn-link {
+    font-weight: 400;
+    color: #225563;
+    text-decoration: none;
+}
+
+.ngb-dp-weekday.small {
+    color: #666666;
+    font-style: normal;
+}
+
 .Middleone{
 font-size: 16px;
 color: #225563;
@@ -719,14 +614,8 @@ font-size: 16px;
 font-weight: 400;
 }
 /*  */
-body {
-  margin-top: 3%;
-  font-family: Metropolis;
-}
-.masthead{
-   background: #fff;
-   padding-top: 70px;
-}
+
+
 
 .withclor{
    color: #00BEAC;
@@ -741,49 +630,6 @@ width:100%;
 .bullets,.carousel-content{
 text-align:center;
 
-}
-.bullets{
-padding:0;
-bottom: 10px;
-}
-.carousel-content {
-color: black;
-display: flex;
-align-items: center;
-padding: 20px 0 50px 0;
-}
-
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
-
-
-
-.bullets li {
-background: none repeat scroll 0 0 #ccc;
-border: medium none;
-cursor: pointer;
-display: inline-block;
-float: none;
-height: 10px;
-width: 10px;
-}
-
-.bullets li:last-child {
-margin-right: 0;
-}
-
-.bullets li {
-border-radius: 1000px;
-}
-.carousel-indicators .active {
-width: 12px;
-height: 12px;
-margin: 0;
-background-color: #00BEAC;
 }
 
 /* second next page add*/
@@ -802,13 +648,7 @@ width: 0%;
 float: right;
 }
 
-.lastBtn{
-margin-top: auto;
-background-color: #fff;
-padding: 20px 0 20px 0;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-border-radius: 25px 25px 0px 0px;
-}
+
 /*Traveling*/
 
 /* For desktop: */
@@ -853,15 +693,11 @@ text-align: center;
 background-color: #fff;
 margin-top: 20px;
 border-bottom: 1px solid #E5F8F6;
+
+
+
 }
-.myadd03{
-width: 100%;
-padding: 35px 0;
-text-align: center;
-background-color: #fff;
-margin-top: 20px;
-border-bottom: 1px solid #E5F8F6;
-}
+
 .SlectAndAdd{
 display: flex;
 }
@@ -902,10 +738,6 @@ font-weight: 400;
 font-size: 16px;
 font-weight: 600;
 }
-.masthead{
-            background: #fff;
-            padding-top: 70px;
-        }
 
         .withclor{
             color: #00BEAC;
@@ -914,57 +746,7 @@ font-weight: 600;
         .row .col-xs-offset-4 {
        margin-left: 0;
     }
-    .row .col-xs-8 ,.carousel-content div{
-       width:100%;
-    }
-.bullets,.carousel-content{
-    text-align:center;
-
-}
-.bullets{
-   padding:0;
-    bottom: 10px;
-}
-.carousel-content {
-    color: black;
-    display: flex;
-    align-items: center;
-    padding: 20px 0 50px 0;
-}
-
-.name {
-    color: black;
-    display: block;
-    font-size: 20px;
-    text-align: center;
-}
-
-
-
-.bullets li {
-    background: none repeat scroll 0 0 #ccc;
-    border: medium none;
-    cursor: pointer;
-    display: inline-block;
-    float: none;
-    height: 10px;
-    width: 10px;
-}
-
-.bullets li:last-child {
-    margin-right: 0;
-}
-
-.bullets li {
-    border-radius: 1000px;
-}
-.carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: #00BEAC;
-}
-
+    
 /* second next page add*/
 
 .progress-bar {
@@ -981,13 +763,7 @@ font-weight: 600;
     float: right;
 }
 
-.lastBtn{
-    margin-top: auto;
-    background-color: #fff;
-    padding: 20px 0 20px 0;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 25px 25px 0px 0px;
-}
+
 /*Traveling*/
 
 /* For desktop: */
@@ -1074,10 +850,7 @@ font-weight: 600;
     font-size: 16px;
 }
 /*  */
-.masthead{
-  background: #fff;
-  padding-top: 70px;
-}
+
 
 .withclor{
   color: #00BEAC;
@@ -1086,56 +859,7 @@ font-weight: 600;
 .row .col-xs-offset-4 {
 margin-left: 0;
 }
-.row .col-xs-8 ,.carousel-content div{
-width:100%;
-}
-.bullets,.carousel-content{
-text-align:center;
 
-}
-.bullets{
-padding:0;
-bottom: 10px;
-}
-.carousel-content {
-color: black;
-display: flex;
-align-items: center;
-padding: 20px 0 50px 0;
-}
-
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
-
-
-
-.bullets li {
-background: none repeat scroll 0 0 #ccc;
-border: medium none;
-cursor: pointer;
-display: inline-block;
-float: none;
-height: 10px;
-width: 10px;
-}
-
-.bullets li:last-child {
-margin-right: 0;
-}
-
-.bullets li {
-border-radius: 1000px;
-}
-.carousel-indicators .active {
-width: 12px;
-height: 12px;
-margin: 0;
-background-color: #00BEAC;
-}
 
 /* second next page add*/
 
@@ -1153,13 +877,7 @@ width: 0%;
 float: right;
 }
 
-.lastBtn{
-margin-top: auto;
-background-color: #fff;
-padding: 20px 0 20px 0;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-border-radius: 25px 25px 0px 0px;
-}
+
 /*Traveling*/
 
 /* For desktop: */
@@ -1239,10 +957,7 @@ right: 10px;
 font-size: 16px;
 }
 /*  */
-.masthead{
-  background: #fff;
-  padding-top: 70px;
-}
+
 
 .withclor{
   color: #00BEAC;
@@ -1250,56 +965,6 @@ font-size: 16px;
 
 .row .col-xs-offset-4 {
 margin-left: 0;
-}
-.row .col-xs-8 ,.carousel-content div{
-width:100%;
-}
-.bullets,.carousel-content{
-text-align:center;
-
-}
-.bullets{
-padding:0;
-bottom: 10px;
-}
-.carousel-content {
-color: black;
-display: flex;
-align-items: center;
-padding: 20px 0 50px 0;
-}
-
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
-
-
-
-.bullets li {
-background: none repeat scroll 0 0 #ccc;
-border: medium none;
-cursor: pointer;
-display: inline-block;
-float: none;
-height: 10px;
-width: 10px;
-}
-
-.bullets li:last-child {
-margin-right: 0;
-}
-
-.bullets li {
-border-radius: 1000px;
-}
-.carousel-indicators .active {
-width: 12px;
-height: 12px;
-margin: 0;
-background-color: #00BEAC;
 }
 
 /* second next page add*/
@@ -1317,13 +982,7 @@ width: 0%;
 float: right;
 }
 
-.lastBtn{
-margin-top: auto;
-background-color: #fff;
-padding: 20px 0 20px 0;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-border-radius: 25px 25px 0px 0px;
-}
+
 /*Traveling*/
 
 /* For desktop: */
@@ -1400,10 +1059,6 @@ right: 10px;
 }
 
 /*  */
-.masthead{
-  background: #fff;
-  padding-top: 70px;
-}
 
 .withclor{
   color: #00BEAC;
@@ -1415,53 +1070,9 @@ margin-left: 0;
 .row .col-xs-8 ,.carousel-content div{
 width:100%;
 }
-.bullets,.carousel-content{
-text-align:center;
-
-}
-.bullets{
-padding:0;
-bottom: 10px;
-}
-.carousel-content {
-color: black;
-display: flex;
-align-items: center;
-padding: 20px 0 50px 0;
-}
-
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
 
 
 
-.bullets li {
-background: none repeat scroll 0 0 #ccc;
-border: medium none;
-cursor: pointer;
-display: inline-block;
-float: none;
-height: 10px;
-width: 10px;
-}
-
-.bullets li:last-child {
-margin-right: 0;
-}
-
-.bullets li {
-border-radius: 1000px;
-}
-.carousel-indicators .active {
-width: 12px;
-height: 12px;
-margin: 0;
-background-color: #00BEAC;
-}
 
 /* second next page add*/
 
@@ -1483,13 +1094,7 @@ padding: 15px 0px;
 float: right;
 }
 
-.lastBtn{
-margin-top: auto;
-background-color: #fff;
-padding: 20px 0 20px 0;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-border-radius: 25px 25px 0px 0px;
-}
+
 /*Traveling*/
 
 /* For desktop: */
@@ -1535,14 +1140,7 @@ background-color: #fff;
 margin-top: 20px;
 border-bottom: 1px solid #E5F8F6;
 }
-.myadd03{
-width: 100%;
-padding: 35px 0;
-text-align: center;
-background-color: #fff;
-margin-top: 20px;
-border-bottom: 1px solid #E5F8F6;
-}
+
 .SlectAndAdd{
 display: flex;
 }
@@ -1586,7 +1184,7 @@ height: 60px;
 position: relative;
 top: 1px;
 display: inline-block;
-font-family: 'Glyphicons Halflings';
+font-family: 'Metropolis';
 font-style: normal;
 font-weight: 400;
 line-height: 1;
@@ -1609,10 +1207,7 @@ border-bottom-right-radius: 0;
 font-size: 16px;
 }
 /*  */
-.masthead{
-  background: #fff;
-  padding-top: 70px;
-}
+
 
 .withclor{
   color: #00BEAC;
@@ -1623,53 +1218,6 @@ margin-left: 0;
 }
 .row .col-xs-8 ,.carousel-content div{
 width:100%;
-}
-.bullets,.carousel-content{
-text-align:center;
-
-}
-.bullets{
-padding:0;
-bottom: 10px;
-}
-.carousel-content {
-color: black;
-display: flex;
-align-items: center;
-padding: 20px 0 50px 0;
-}
-
-.name {
-color: black;
-display: block;
-font-size: 20px;
-text-align: center;
-}
-
-
-
-.bullets li {
-background: none repeat scroll 0 0 #ccc;
-border: medium none;
-cursor: pointer;
-display: inline-block;
-float: none;
-height: 10px;
-width: 10px;
-}
-
-.bullets li:last-child {
-margin-right: 0;
-}
-
-.bullets li {
-border-radius: 1000px;
-}
-.carousel-indicators .active {
-width: 12px;
-height: 12px;
-margin: 0;
-background-color: #00BEAC;
 }
 
 /*loder*/
@@ -1744,9 +1292,7 @@ h4 b{
       text-decoration: underline;
       color: #225563;
   }
-  .backIcon{
-      margin-top: 12px;
-  }
+  
   .nextbttn{
       margin-top: 0%;
   }
@@ -1754,11 +1300,7 @@ h4 b{
   .form-control{
       height: 50px;
   }
-  .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-      color: #fff;
-      background-color: #225563;
-      border-color: #225563;
-  }
+ 
   .headersec{
       font-weight: 400;
   }
@@ -1830,20 +1372,14 @@ h4 b{
       color: #225563;
       font-size: 16px;
   }
-  .backIcon{
-      margin-top: 12px;
-  }
+  
   
   
   .form-control{
       height: 50px;
       font-size: 16px;
   }
-  .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-      color: #fff;
-      background-color: #225563;
-      border-color: #225563;
-  }
+ 
   .emailSignIn{
       font-weight: 400;
   }
@@ -1916,11 +1452,7 @@ h4 b{
 .form-control{
     height: 50px;
 }
-.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #225563;
-    border-color: #225563;
-}
+
 /*start*/
 .pt-4 {
     padding-top: 1.5rem !important;
@@ -1994,7 +1526,7 @@ h4 b{
     padding: 6px 20px;
     margin-bottom: 0;
     font-size: 14px;
-    font-weight: 600;
+    
 
 }
 .btnDesign01{
@@ -2187,9 +1719,7 @@ h4 b{
       text-decoration: underline;
       color: #225563;
   }
-  .backIcon{
-      margin-top: 12px;
-  }
+  
   
   
   .form-control{
@@ -2235,13 +1765,7 @@ h4 b{
       
       
   }
-  /*.card-body:hover{
-      background-color: #fff;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      display: flex;
-      padding: 12px 0px;
-      border: 2px solid #00BEAC;
-  }*/
+  
   .feature {
       display: inline-flex;
       align-items: center;
@@ -2270,13 +1794,13 @@ h4 b{
   }
   
   .btnDesign{
-      background-color: #E8EEEF;
+      background-color: #979797;
       border-radius: 25px;
-      color: #225563;
+      color: #fff;
       padding: 6px 20px;
       margin-bottom: 0;
       font-size: 13px;
-      font-weight: bold;
+     
   
   }
   .btnDesign01{
@@ -2391,8 +1915,8 @@ h4 b{
   
   .text-right{
       position: relative;
-      top: -30px;
-      font-size: 16px;
+      top: -24px;
+      font-size: 14px;
   }
   .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
       color: #FFF;
@@ -2416,13 +1940,13 @@ h4 b{
       border: 2px solid #E6E6E6;
       border-radius: 5px;
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 600;
   
   }
   .pagination {
       display: flex;
       padding-left: 0;
-      margin: 20px 0;
+      margin: 1px 0;
       border-radius: 4px;
       overflow-y: auto;
   }
@@ -2431,7 +1955,7 @@ h4 b{
       border-bottom-left-radius: 6px;
       padding: 0px 23px;
       font-size: 16px;
-      box-shadow: rgb(0 190 172) 0px 3px 19px -5px, rgb(0 0 0 / 10%) 0px 1px 0px 1px;
+      
   }
   /*confirmation*/
   .step{
@@ -2450,7 +1974,7 @@ h4 b{
   }
   .bgRadious{
       background-color: #E8EEEF;
-      padding: 15px 16px;
+      padding: 8px 16px;
       border-radius: 10px ;
       text-align: -webkit-center;
   }
@@ -2467,13 +1991,17 @@ h4 b{
       font-size: 16px;
   }
   .dot{
-      position: relative;
-      background-color: #A7BBC1;
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      left: -3.5px;
-      top: 75px;
+    position: relative;
+    background-color: #fff;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    left: -13.5px;
+    top: 75px;
+    border: 2px solid #979797;
+    text-align: center;
+    z-index: 111;
+    color:#979797;
   }
   .nextbttn{
       background-color: #fff;
@@ -2618,8 +2146,8 @@ bottom: 0px;
 
 .middleTrip{
   overflow: hidden;
-  height: 64px;
-  width: 65px;
+  height: 59px;
+  width: 60px;
   background-color: #00BEAC;
   border-radius: 50%;
   object-fit: cover;
@@ -2627,10 +2155,11 @@ bottom: 0px;
   margin: 0 8px;
   display: inline-block;
   box-shadow: rgb(0 0 0 / 5%) 0px -5px 5px;
+  padding: 4px;
 }
 .slection p{
   margin: 0;
-  color:#235664;
+  /* color:#235664; */
   font-weight: 400;
   font-size: 16px; 
 
@@ -2638,3 +2167,271 @@ bottom: 0px;
 .MYTripBtn{
   top: -27px;
 }
+.progress01 {
+    height: 4px;
+    margin-bottom: unset;
+    overflow: hidden;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    width: 100%;
+}
+.progress-bar {
+    height: 8px;
+    background: #00BEAC;
+    width: 0%;
+}
+/* Animations */
+.slide-animation.ng-enter, .slide-animation.ng-leave  {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+
+  position:absolute;
+}
+
+.slide-animation.ng-enter {
+  opacity:0;
+  left:300px;
+  overflow-y: hidden;
+  overflow-x:hidden;
+}
+
+.slide-animation.ng-enter.ng-enter-active {
+  opacity:1;
+  left: 0;
+  top: 0;
+}
+
+.slide-animation.ng-leave {
+  opacity:0;
+  left: 0;
+  top: 0;
+}
+
+.slide-animation.ng-leave.ng-leave-active {
+  opacity:0;
+  left: 0;
+  top: 0;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #225563;
+    border-color: #225563;
+}
+/* svg color chnge */
+.svg-blue path{
+    fill:#225563;
+}
+
+.caption:hover > .svg-blue path{
+    
+    fill:#fff;
+   
+    }
+.caption-active > .svg-blue path{
+    fill:#fff;
+}
+.topBarWelcome {
+    position: fixed;
+    width: 100%;
+    z-index: 111111111;
+    background-color: #fff;
+    margin-top: -12px;
+    padding: 15px 0px 0px 0px;
+}
+.SignInUP{
+    padding-top: 10%;
+}
+.SignInLogin {
+    padding-top: 17%;
+}
+.topBarWelcomeStart {
+    position: fixed;
+    width: 100%;
+    z-index: 111111111;
+    background-color: #FEEBB3;
+    margin-top: -12px;
+    padding: 11px 0px ;
+}
+.slectionSpcl {
+    display: flex;
+    flex-wrap: initial;
+}
+.topBarWelcomeStart1 {
+    position: fixed;
+    width: 100%;
+    z-index: 111111111;
+    background-color: #FEEBB3;
+    margin-top: -13px;
+   
+}
+.backgroundClor{
+    background: #FBBB00;
+    padding: 11px 0px;
+    display: inline-flex;
+}
+.SubTotal{
+    padding: 0px 12px;
+    margin: auto;
+    margin-left: 0;
+}
+.backgroundClorActivity {
+    border-left: 1px solid #FBBB00;
+    padding: 11px 0px;
+    display: inline-flex;
+}
+.Last3Section{
+padding: 0px 35px ;
+}
+.YelloText {
+    color: #FBBB00;
+}
+.YLightText {
+    color: #E5E5E5;
+}
+.ScheduleText{
+    color: #225563;
+}
+.FlotRight{
+    float: right;
+    font-size: 24px;
+    
+}
+.EditBtnClorBLUE{
+    background-color: #225563;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.EditBtnClor {
+    background-color: #E5E5E5;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ButtonTwo{
+    display: flex;
+    padding: 20px 0px;
+}
+.EditBtnTwoBoth {
+    background-color: #979797;
+    padding: 2px 14px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+   
+}
+.EditBtnOneBoth {
+    background-color: #E5E5E5;
+    padding: 2px 14px;
+    color: #225563;
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px solid #00BEAC;
+    background: #E5F8F7;
+   
+}
+.YellowRedyConfrm {
+    color: #333;
+    background-color: #FBBB00;
+    border: 2px solid #E5E5E5;
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.back {
+    background-color: #fff;
+    padding: 8px 0px;
+    border-radius: 25px 25px 0px 0px;
+}
+.MyProfile{
+    color: #225563;
+    font-weight: 600;
+    
+}
+.topBarMyProfile{
+    position: fixed;
+    width: 100%;
+    z-index: 111111111;
+    background-color: #E5F8F7;
+    margin-top: -13px;
+}
+.backgroundClorBorder {
+    border-left: unset;
+    padding: 11px 0px;
+    display: inline-flex;
+}
+.EditBtnOneDetail {
+    background-color: #E5E5E5;
+    padding: 5px 14px;
+    color: #00BEAC;
+    font-size: 14px;
+    font-weight: 500;
+    border: unset;
+    background: #E5E5E5;
+    border-radius: 38px;
+}
+.LeftSideRadious01 {
+    background-color: #00BEAC;
+    border-radius: 10px;
+}
+.bgRadious01 {
+    background-color: #00BEAC;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-align: -webkit-center;
+}
+.dollrSize01 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.fw-bold01 {
+    color: #fff;
+    font-size: 16px;
+}
+.ButtonTwo01 {
+    display: flex;
+    padding: 12px 0px;
+}
+.LeftSideRadious02 {
+    background-color: #B0EBE5;
+    border-radius: 10px;
+}
+.bgRadious02 {
+    background-color: #B0EBE5;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-align: -webkit-center;
+}
+.SubTotal01{
+    padding: 0px 2px;
+    margin: auto;
+    margin-left: 0;
+    color: #333;
+    font-size: 12px;
+}
+.topBarMyProfileTickets{
+    position: fixed;
+    width: 100%;
+    z-index: 111111111;
+    background-color: #FFFFFF;
+    margin-top: -13px;
+    
+}
+.TopTextMargin{
+    padding-top: 15%;
+}
+.TicketStyle{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

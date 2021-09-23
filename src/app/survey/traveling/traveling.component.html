@@ -1,226 +1,176 @@
 <app-header></app-header>
 
-<section class=" topBar ">
-    <div class="container">
-        <div class="row slection  ">
-        <div class="col-md-6 col- topLeft">
-            <a routerLink="/calendar" ><img src="/assets/img/left-arrow.png "></a>
-        </div>
-        <div class="col-md-6 col- topRight">
-            <p >3<span class="listShow">/8</span></p>
-        </div>
+<section class="topBar">
+  <div class="container">
+    <div class="row slection">
+      <div class="col-md-6 col- topLeft">
+        <a routerLink="/calendar"
+          ><img src="/assets/img/left-arrow.png " width="15px"
+        /></a>
+      </div>
+      <div class="col-md-6 col- topRight">
+        <p>3<span class="listShow">/8</span></p>
+      </div>
     </div>
-    </div>
-        
-    
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="progress-container">
-
-                    <div class="progress-bar" id="myBar"></div>
-                </div>
-
-            </div>
-
+  </div>
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="progress01">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 25%"
+          >
+            <span class="sr-only"></span>
+          </div>
         </div>
-        
+      </div>
     </div>
+  </div>
 </section>
-    
-    
 
-    
 <section class="content-section" id="portfolio">
-        <div class="container ">
-            <div class="content-section-heading ">
-                <h3 class="text-secondary mb-0"><b>How many people are you traveling with?</b></h3>
-                <br>
-                <p class="mb-5 tickets">We Will need this to check tickets and to adapt the experiences especially for you need. you can edit it later if you want to.</p>
-                <br>
-            </div>
-            <div class ="m-auto">
-                <div  class ="row slection ">
-                <div class="col-md-6 col-sm-6  ">
-                    
-                        <div onclick="myFunction()" class="caption">
-                            
-                            <p  class="fontSize text-center innerTextClor"><b>Alone</b></p>
-                        </div>
-                        
-                    
-                </div>
-                
-                <div class="col-md-6  col-sm-6 ">
-                    
-                        <div class="caption">
-                            
-                            <p class="fontSize text-center innerTextClor"><b>Couple</b></p>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-            <br>
-            <div class="row slection ">
-                <div class="col-md-6  ">
-                    
-                        <div class="caption">
-                            
-                            <p class="fontSize text-center innerTextClor"><b>Family</b></p>
-                        </div>
-                        
-                    
-                </div>
-                <div class="col-md-6 ">
-                    
-                        <div class="caption">
-                            
-                            <p class="fontSize text-center innerTextClor"><b>Friends</b></p>
-                            
-                        </div>
-                        
-                    
-                </div>
-                
-                
-                
-                
-            </div>
-            <div class="" id="myDIV">
-                <div class="myadd">
-                    <div class="row SlectAndAdd m-auto">
-                        <div class="col-md-5">
-                            <b class="adult">Adults > 18</b>
-                        </div>
-                        <div class="col-md-2">
-                            <b  class="Middleone">1</b>
-                        </div>
-                        <div class="col-md-5 AddOrSub">
-                            <div class="SubtractAdd">
-                                <button class=" btnBeauty m-0 p-0">-</button>
-
-                                
-                            </div>
-                            <div class="SubtractAdd02">
-                                
-                                <button class=" btnBeauty m-0 p-0">+</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="myadd01">
-                    <div class="row SlectAndAdd m-auto">
-                        <div class="col-md-5">
-                            <b class="adult01">Teen</b>
-                        </div>
-                        <div class="col-md-2">
-                            <b class="Middleone">-</b>
-                        </div>
-                        <div class="col-md-5 AddOrSub">
-                            <div class="SubtractAdd">
-                                <button class=" btnBeauty m-0 p-0">-</button>
-
-                                
-                            </div>
-                            <div class="SubtractAdd02">
-                                
-                                <button class=" btnBeauty m-0 p-0">+</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="myadd02">
-                    <div  class="row SlectAndAdd m-auto">
-                        <div class="col-md-5">
-                            <b class="adult01" >Kids < 10</b>
-                        </div>
-                        <div class="col-md-2">
-                            <b class="Middleone">-</b>
-                        </div>
-                        <div class="col-md-5 AddOrSub">
-                            <div class="SubtractAdd">
-                                <button class=" btnBeauty m-0 p-0">-</button>
-
-                                
-                            </div>
-                            <div class="SubtractAdd02">
-                                
-                                <button class=" btnBeauty m-0 p-0">+</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="myadd03">
-                    <div class="row SlectAndAdd m-auto">
-                        <div class="col-md-5">
-                            <b class="adult01">Seniors > 65</b>
-                        </div>
-                        <div class="col-md-2">
-                            <b class="Middleone">-</b>
-                        </div>
-                        <div class="col-md-5 AddOrSub">
-                            <div class="SubtractAdd">
-                                <button class=" btnBeauty m-0 p-0">-</button>
-
-                                
-                            </div>
-                            <div class="SubtractAdd02">
-                                
-                                <button class=" btnBeauty m-0 p-0">+</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            
-            </div>
-
-            <div class="row lastBtn nextbttn fixed">
-                <div class="col-md-5 col-sm-12">
-                    <a class="btn btn-primary btn-lg " routerLink="/barcelona" >Next</a>
-                </div>
-            </div>
-            
-
+  <div class="container">
+    <div class="content-section-heading">
+      <h3 class="text-secondary mb-0">
+        <b>How many people are you traveling with?</b>
+      </h3>
+      <br />
+      <p class="mb-5 tickets">
+        We Will need this to check tickets and to adapt the experiences
+        especially for you need. you can edit it later if you want to.
+      </p>
+      <br />
+    </div>
+    <div class="m-auto">
+      <div class="row slection">
+        <div class="col-md-6 col-sm-6">
+          <div (click)="clickFunction('u2_1')" class="caption">
+            <p class="fontSize text-center innerTextClor"><b>Alone</b></p>
+          </div>
         </div>
 
-       
+        <div class="col-md-6 col-sm-6">
+          <div (click)="clickEvent('u2_2')" class="caption">
+            <p class="fontSize text-center innerTextClor"><b>Couple</b></p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row slection">
+        <div class="col-md-6">
+          <div (click)="clickEvent('u2_3')" class="caption">
+            <p class="fontSize text-center innerTextClor"><b>Family</b></p>
+          </div>
+        </div>
+        <div class="col-md-6" >
+          <div (click)="clickEvent('u2_4')" class="caption">
+            <p class="fontSize text-center innerTextClor"><b>Friends</b></p>
+          </div>
+        </div>
+      </div>
 
-    </section>
+      <div class="" *ngIf="toggleOn" id="myDIV">
+      <form [formGroup]="travelForm" (click)="click()">
+        <div class="myadd">
+          <div class="row SlectAndAdd m-auto">
+            <div class="col-md-5">
+              <b class="adult">Adults (Age > 18)</b>
+            </div>
+            <div class="col-md-2">
+              <!-- <b class="Middleone">1</b> -->
+              <input type="number" [value]="adultQuantity" style="width: 50px; text-align: center;" formControlName="adult">
+            </div>
+            <div class="col-md-5 AddOrSub">
+              <div class="SubtractAdd">
+                <button class="btnBeauty m-0 p-0" (click)="subAdult()" type="button">-</button>
+              </div>
+              <div class="SubtractAdd02">
+                <button class="btnBeauty m-0 p-0" (click)="plusAdult()" type="button">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="myadd01">
+          <div class="row SlectAndAdd m-auto">
+            <div class="col-md-5">
+              <b class="adult01">Teen</b>
+            </div>
+            <div class="col-md-2">
+              <!-- <b class="Middleone">-</b> -->
+              <input type="number" [value]="teenQuantity" style="width: 50px; text-align: center;" formControlName="teen">
+            </div>
+            <div class="col-md-5 AddOrSub">
+              <div class="SubtractAdd">
+                <button class="btnBeauty m-0 p-0" (click)="subTeen()">-</button>
+              </div>
+              <div class="SubtractAdd02">
+                <button class="btnBeauty m-0 p-0" (click)="plusTeen()">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="myadd02">
+          <div class="row SlectAndAdd m-auto">
+            <div class="col-md-5">
+              <b class="adult01">Kids <br> (Age < 10)</b>
+            </div>
+            <div class="col-md-2">
+              <!-- <b class="Middleone">-</b> -->
+              <input type="number" [value]="kidQuantity" style="width: 50px; text-align: center;" formControlName="kid">
+            </div>
+            <div class="col-md-5 AddOrSub">
+              <div class="SubtractAdd">
+                <button class="btnBeauty m-0 p-0" (click)="subKid()">-</button>
+              </div>
+              <div class="SubtractAdd02">
+                <button class="btnBeauty m-0 p-0" (click)="plusKid()">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="myadd03">
+          <div class="row SlectAndAdd m-auto">
+            <div class="col-md-5">
+              <b class="adult01">Seniors (Age > 65)</b>
+            </div>
+            <div class="col-md-2">
+              <!-- <b class="Middleone">-</b> -->
+              <input type="number" [value]="seniorQuantity" style="width: 50px; text-align: center;" formControlName="seniors">
+            </div>
+            <div class="col-md-5 AddOrSub">
+              <div class="SubtractAdd">
+                <button class="btnBeauty m-0 p-0" (click)="subSenior()">-</button>
+              </div>
+              <div class="SubtractAdd02">
+                <button class="btnBeauty m-0 p-0" (click)="plusSenior()">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
 
-    
-    
-    
-    
-   
-    <!-- Bootstrap core JS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Core theme JS-->
-    <!-- <script src="js/scripts.js"></script> -->
-    
-
-    <!--Traveling -->
-    <script>
-function myFunction() {
-var x = document.getElementById("myDIV");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script> 
+    <div class="row lastBtn nextbttn fixed">
+      <div class="col-md-5 col-sm-12">
+        <button
+          id="traveling"
+          class="btn btn-primary btn-lg next-btn"
+          routerLinkActive="active"
+          routerLink="/barcelona"
+          [disabled]="!selectedItem"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
 <app-footer></app-footer>

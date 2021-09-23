@@ -3,13 +3,7 @@
     flex-wrap: initial;
 }
 
-.topBar{
-    position: fixed;
-    width:100%;
-    z-index: 111111111;
-    background-color: #fff;
-    margin-top: -70px;
-}
+
 #portfolio{
     
     margin-top: 70px;
@@ -30,7 +24,23 @@ p.TopRightListShow{
 }
 .slection p{
     margin: 0;
-    color: #235664;
+    
     font-weight: 400;
     font-size: 16px;
+}
+.caption:hover {
+    border: 2px solid #00BEAC;
+    
+    
+}
+.caption:visited {
+    color: rgb(255, 255, 255);
+    background-color:red;
+    box-shadow: rgb(0, 190, 172) 0px 3px 19px -5px, rgba(0, 0, 0, 0.1) 0px 1px 0px 1px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 190, 172);
+    border-image: initial;
+    padding: 5px;
 }

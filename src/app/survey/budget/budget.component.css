@@ -5,3 +5,17 @@
 .myBudget {
     margin-bottom: 30%;
 }
+.caption01 {
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.caption01:hover{
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #00BEAC;
+    padding: 5px;
+    background-color: #00BEAC;
+    box-shadow: rgb(0 190 172) 0px 3px 19px -5px, rgb(0 0 0 / 10%) 0px 1px 0px 1px;
+    }

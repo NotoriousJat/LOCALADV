@@ -1,0 +1,77 @@
+.back{
+    background-color: #fff;
+    padding: 8px 0px;
+}
+.Activities{
+    font-size: 24px;
+}
+.pagination-lg .page-link {
+    padding: 0px 43px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.pagination>li>a, .pagination>li>span {
+    
+    border-radius: unset;
+   
+}
+.page-item.disabled .page-link {
+    color: #225563;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+.FlotRight{
+    float: right;
+    font-size: 24px;
+    
+}
+.card-body:hover {
+    background-color: #EFEFEF;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    
+}
+.card-body01{
+    background-color: #EFEFEF;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    border: unset;
+}
+.btnDesignTik {
+    background-color: #00BEAC;
+    border-radius: 25px;
+    color: #fff;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.page-link:hover{
+    border: 2px solid #00BEAC;
+    background: #E5F8F7;
+    color: #225563;
+}
+.fs-4{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.detailsTxt{
+    font-size: 14px;
+}
+.designDetail {
+    background-color: #fff;
+    border-radius: 10px;
+    
+    padding: 12px 0px;
+    border: 1px solid #E5E5E5;
+}
+.BorderDetail{
+    border:1px solid#E5E5E5 ;
+    border-radius: 5px;
+    padding: 10px  ;
+    margin-bottom: 25%;
+}
