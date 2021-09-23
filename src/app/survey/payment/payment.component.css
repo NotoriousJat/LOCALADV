@@ -1,0 +1,13 @@
+.form-group {
+    margin-bottom: unset;
+}
+.AddressHeight{
+    height: 100px;
+    font-size: 12px;   
+    text-align: end;
+    margin-bottom: 10px;
+}
+.CvvStyle{
+    font-size: 12px;   
+    text-align: end;
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+declare var $: any;
 
 @Component({
   selector: 'app-singup',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SingupComponent implements OnInit {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
+    $('.createUserBtn').click(function(){
+      var name = $('.name').val();
+      localStorage.setItem('name', name);
+      var surname = $('.surname').val();
+      localStorage.setItem('surname', surname);
+      var email = $('.email').val();
+      localStorage.setItem('email', email);
+      var password = $('.password').val();
+      localStorage.setItem('password', password);
+      // console.log(name)
+    })
   }
 
 }

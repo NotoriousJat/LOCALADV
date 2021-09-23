@@ -1,0 +1,121 @@
+.conFrntion{
+    margin-top: -40px;
+}
+.page-item.disabled .page-link {
+    color: #fff;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #00BEAC;
+    border-color: #dee2e6;
+    
+}
+.back{
+    background-color: #fff;
+    padding: 8px 0px;
+}
+.Activities{
+    font-size: 24px;
+}
+.pagination-lg .page-link {
+    padding: 0px 43px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.pagination>li>a, .pagination>li>span {
+    
+    border-radius: unset;
+   
+}
+.page-item.disabled .page-link {
+    color: #225563;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.card-body:hover {
+    background-color: #EFEFEF;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    
+}
+.card-body01{
+    background-color: #EFEFEF;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    border: unset;
+}
+.btnDesignTik {
+    background-color: #00BEAC;
+    border-radius: 25px;
+    color: #fff;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.page-link:hover{
+    border: 2px solid #00BEAC;
+    background: #E5F8F7;
+    color: #225563;
+}
+.ccard-bodyConf {
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    border: 2px solid #fff;
+}
+.card-bodyConf {
+    border-radius: 10px;
+    display: flex;
+}
+/* ADD later */
+.bgColor{
+    /* height: 100vh; */
+    background-color: #333333;
+    margin-bottom: 0%;
+    height: 43pc;
+
+}
+.row.text-center.back.fixed {
+    display: flex;
+    flex-wrap: inherit;
+}
+.BlueSection{
+    background: #00BEAC;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.BlueSection2{
+    background: #00BEAC;
+}
+.BlueSection01{
+    background: #fff;
+    
+}
+.BlueSection03{
+    background: #fff;
+    border-bottom: 2px dashed #131313;
+}
+.TimeSchedule{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.DateSchedule{
+    color: #225563;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.TimeSchedule01{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.backShadow{
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}

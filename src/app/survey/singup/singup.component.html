@@ -1,34 +1,53 @@
 <app-header></app-header>
 
     <main class="mainDiv">
-    <section class="container">
-        <div class="backIcon">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      <section class=" topBarWelcome ">
+        <div class="container">
+            <div class="row slection ">
+            <div class="col-md-5 col- topLeft">
+                <a routerLink="/welcome" ><img src="/assets/img/left-arrow.png " width="15px"></a>
+            </div>
+            <div class="col-md-2 col- ">
+                
+            </div>
+            <div class="col-md-5 col- topRight">
+                
+            </div>
         </div>
+        </div>
+       
+        
     </section>
-    <section class="container">
+    <section class="container SignInUP">
         <form>
   <div class="form-group">
-    <h3 class="text-secondary mb-0"><b>Sign up</b></h3>
+    <h3 class="text-secondary mb-0"><b>Sign up</b>
+      <img class="logoRight" src="/assets/img/LOGO LADV 2-short.svg">
+    </h3>
+    
     <label class="headersec" for="exampleInputEmail1">Name</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John">
+    <input type="text" class="form-control name" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John">
     <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
   </div>
   <div class="form-group">
     
     <label class="headersec" for="exampleInputEmail1">surname</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Doe">
+    <input type="email" class="form-control surname" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Doe">
     
   </div>
   <div class="form-group">
     
     <label class="headersec" for="exampleInputEmail1">E-mail</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="johndoe@mail.com">
+    <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="johndoe@mail.com">
     
   </div>
-  <div class="form-group margNBtom">
+  <div class="form-group ">
     <label class="headersec" for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" class="form-control password" id="exampleInputPassword1" placeholder="**********">
+  </div>
+  <div class="form-group margNBtom">
+    <label class="headersec" for="exampleInputPassword1">Confirm Password</label>
+    <input type="password" class="form-control password" id="exampleInputPassword1" placeholder="**********">
   </div>
 </form>
         
@@ -37,7 +56,8 @@
                            
             <div class="row  back fixed">
               <div class="col-md-5 col-sm-12">
-                  <a class="btn btn-primary btn-lg " routerLink="/signupstep2"  >Next</a>
+                  <a class="btn btn-primary btn-lg createUserBtn" routerLinkActive="active" routerLink="/signupstep2"  >Next</a>
+                  <!-- <a class="btn btn-primary btn-lg createUserBtn"  >Next</a> -->
               </div>
           </div>
           

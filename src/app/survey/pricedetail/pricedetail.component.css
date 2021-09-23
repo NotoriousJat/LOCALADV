@@ -1,0 +1,75 @@
+.conFrntion{
+    margin-top: -40px;
+}
+.page-item.disabled .page-link {
+    color: #fff;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #00BEAC;
+    border-color: #dee2e6;
+    
+}
+.back{
+    background-color: #fff;
+    padding: 8px 0px;
+}
+.Activities{
+    font-size: 24px;
+}
+.pagination-lg .page-link {
+    padding: 0px 43px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.pagination>li>a, .pagination>li>span {
+    
+    border-radius: unset;
+   
+}
+.page-item.disabled .page-link {
+    color: #225563;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.card-body:hover {
+    background-color: #EFEFEF;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    
+}
+.card-body01{
+    background-color: #EFEFEF;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    border: unset;
+}
+.btnDesignTik {
+    background-color: #00BEAC;
+    border-radius: 25px;
+    color: #fff;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.page-link:hover{
+    border: 2px solid #00BEAC;
+    background: #E5F8F7;
+    color: #225563;
+}
+.ccard-bodyConf {
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    padding: 12px 0px;
+    border: 2px solid #fff;
+}
+.card-bodyConf {
+    border-radius: 10px;
+    display: flex;
+}

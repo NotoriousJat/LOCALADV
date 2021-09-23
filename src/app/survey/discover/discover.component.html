@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row slection ">
         <div class="col-md-6 col- topLeft">
-            <a routerLink="/interest" ><img src="/assets/img/left-arrow.png "></a>
+            <a routerLink="/interest" ><img src="/assets/img/left-arrow.png " width="15px" ></a>
         </div>
         <div class="col-md-6 col- topRight">
             <p>6<span class="listShow">/8</span></p>
@@ -18,10 +18,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="progress-container">
-
-                    <div class="progress-bar" id="myBar"></div>
-                </div>
+                
+                <div class="progress01">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
 
             </div>
 
@@ -43,14 +45,16 @@
                 <div class="col-md-4 ">
                         <div  class="caption text-center">
                             
-                                <img class="img-fluid" src="/assets/img/basics.svg">
+                                <!-- <img class="img-fluid" src="/assets/img/basics.svg"> -->
+                                <svg class="svg-blue" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path d="M24 4c11.046 0 20 8.954 20 20s-8.954 20-20 20S4 35.046 4 24 12.954 4 24 4zm0 2C14.059 6 6 14.059 6 24s8.059 18 18 18 18-8.059 18-18S33.941 6 24 6zm8.293 11.293l1.414 1.414L21.5 30.914l-6.207-6.207 1.414-1.414 4.793 4.792 10.793-10.792z" fill="#225563" fill-rule="evenodd"/></svg>
                             <p  class="text-center innerTextClor"><b>The bare basics</b></p>
                         </div>
                 </div>
                 <div class="col-md-4 pr-0 pl-0 ">
                     
                         <div class="caption text-center">
-                            <img class="img-fluid" src="/assets/img/gems.svg">
+                            <!-- <img class="img-fluid" src="/assets/img/gems.svg"> -->
+                            <svg class="svg-blue" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path d="M36.454 7l7.836 8.956L24 42.653 3.71 15.956 11.546 7h24.908zM17.218 17H7.016L22.22 37.005 17.218 17zm23.763 0h-10.2l-5.003 20.005L40.981 17zm-12.263 0H19.28L24 35.875 28.718 17zM11.94 9.586L7.202 15H16l-4.06-5.414zM24 9.667L20 15h8l-4-5.333zm12.058-.08L32 15h8.796l-4.737-5.413zM33.998 9H26l4 5.333L33.998 9zm-12 0H14l4 5.333L21.998 9z" fill="#225563" fill-rule="evenodd"/></svg>
                             <p class="text-center innerTextClor"><b>Hidden Gems</b></p>
                             
                         </div>
@@ -59,7 +63,8 @@
                 <div class="col-md-4 ">
                     
                         <div class="caption text-center">
-                            <img class="img-fluid" src="/assets/img/balanced.svg">
+                            <!-- <img class="img-fluid" src="/assets/img/balanced.svg"> -->
+                            <svg class="svg-blue" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path d="M6 27.958a.992.992 0 01.035-.22l.037-.11 6.01-15.026.058-.113.027-.043a.96.96 0 01.48-.384l.136-.038.127-.02L13 12h10V9.83a3.001 3.001 0 112-.001V12h10c.045 0 .09.003.134.009l.102.02a.97.97 0 01.604.426l.05.087.038.087 6 15c.033.082.055.165.065.248L42 28v1c0 3.257-2.89 5-7 5-4.017 0-6.868-1.664-6.996-4.78L28 29v-1.042a.992.992 0 01.035-.22l.037-.11L33.522 14H25v27h10v2H13v-2h10V14h-8.523l5.451 13.629c.033.082.055.165.065.248L20 28v1c0 3.257-2.89 5-7 5-4.017 0-6.868-1.664-6.996-4.78L6 29v-1.042zM40 29H30c0 1.884 1.85 3 5 3 3.054 0 4.887-1.05 4.995-2.83L40 29zM8 29c0 1.884 1.85 3 5 3 3.054 0 4.887-1.05 4.995-2.83L18 29H8zm27-13.308L30.476 27h9.047L35 15.692zm-22 0L8.476 27h9.047L13 15.692zM24 6a1 1 0 100 2 1 1 0 000-2z" fill="#225563" fill-rule="evenodd"/></svg>
                             <p class="text-center innerTextClor"><b>Both</b></p>
                             
                         </div>
@@ -106,7 +111,7 @@
 
             <div class="row lastBtn nextbttn fixed">
                 <div class="col-md-5 col-sm-12">
-                    <a class="btn btn-primary btn-lg " routerLink="/budget" >Next</a>
+                    <a id="discover" class="btn btn-primary btn-lg " routerLinkActive="active" routerLink="/budget" >Next</a>
                 </div>
             </div>
             

@@ -1,0 +1,30 @@
+.BgContactus{
+    background-color: #00BEAC;
+    /* height: 100vh; */
+}
+.HelloText{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.HelpYou{
+    font-size: 24px;
+    color: #fff;
+}
+.BoderPoint{
+    border-bottom: 1px solid #fff;
+}
+
+.btn-primary02 {
+    color: #00BEAC;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ProfileStylee {
+    background-color: #00BEAC;
+    padding: 8px 0px;
+}

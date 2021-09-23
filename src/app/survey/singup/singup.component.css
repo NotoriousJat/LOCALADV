@@ -6,3 +6,12 @@
     background-color: #fff;
     padding: 8px 0px;
 }
+.logoRight {
+    vertical-align: middle;
+    border-style: none;
+    float: right;
+    height: 45px;
+}
+.SignInUP{
+    padding-top: 10%;
+}

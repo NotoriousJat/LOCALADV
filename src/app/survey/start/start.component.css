@@ -2,3 +2,23 @@
     background-color: #fff;
     padding: 8px 0px;
 }
+.Activities{
+    font-size: 24px;
+}
+.pagination-lg .page-link {
+    padding: 0px 43px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.pagination>li>a, .pagination>li>span {
+    
+    border-radius: unset;
+   
+}
+.page-item.disabled .page-link {
+    color: #225563;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}

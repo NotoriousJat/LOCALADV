@@ -1,0 +1,47 @@
+nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top {
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #fff;
+}
+
+/* Css */
+.CityText{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #333;
+}
+.Alexatext{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 0;
+}
+.TopGap{
+    padding-top: 17%;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #fff;
+}
+.GaapBtMT{
+    padding: 10px 5px;
+}
+.LeftImagesUser{
+    height: 65px;
+    width: 65px;
+    border: 1px solid black;
+    border-radius: 55%;
+    overflow: hidden;
+    display: block;
+}
+.ProfileStylee {
+    background-color: #fff;
+    padding: 8px 0px;
+}
+.btn-primary01 {
+    color: #333333;
+    background-color: #fff;
+    
+    border-radius: 50px;
+    width: 100%;
+    border: 2px solid #333333;
+    
+    font-size: 16px;
+    font-weight: 600;
+}

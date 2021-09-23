@@ -4,28 +4,24 @@
     <div class="container">
         <div class="row slection  ">
         <div class="col-md-6 col- topLeft">
-            <a routerLink="/calendar" ><img src="/assets/img/left-arrow.png "></a>
+            <a routerLink="/calendar" ><img src="/assets/img/left-arrow.png " width="15px" ></a>
         </div>
         <div class="col-md-6 col- topRight">
             <p >3<span class="listShow">/8</span></p>
         </div>
     </div>
     </div>
-        
-    
     <br>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="progress-container">
-
-                    <div class="progress-bar" id="myBar"></div>
-                </div>
-
+                <div class="progress01">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
             </div>
-
         </div>
-        
     </div>
 </section>
     
@@ -44,49 +40,29 @@
                 <div  class ="row slection ">
                 <div class="col-md-6 col-sm-6  ">
                     
-                        <div onclick="myFunction()" class="caption">
+                        <div  (click)="clickEvent('u2_1')" class="caption">
                             
                             <p  class="fontSize text-center innerTextClor"><b>Alone</b></p>
                         </div>
-                        
-                    
                 </div>
-                
                 <div class="col-md-6  col-sm-6 ">
-                    
-                        <div class="caption">
-                            
+                        <div (click)="clickEvent('u2_2')" class="caption">
                             <p class="fontSize text-center innerTextClor"><b>Couple</b></p>
-                            
                         </div>
-                    
                 </div>
             </div>
             <br>
             <div class="row slection ">
                 <div class="col-md-6  ">
-                    
-                        <div class="caption">
-                            
+                        <div (click)="clickEvent('u2_3')" class="caption">
                             <p class="fontSize text-center innerTextClor"><b>Family</b></p>
                         </div>
-                        
-                    
                 </div>
                 <div class="col-md-6 ">
-                    
-                        <div class="caption">
-                            
+                        <div (click)="clickEvent('u2_4')" class="caption">
                             <p class="fontSize text-center innerTextClor"><b>Friends</b></p>
-                            
                         </div>
-                        
-                    
                 </div>
-                
-                
-                
-                
             </div>
             <div class="" id="myDIV">
                 <div class="myadd">
@@ -100,12 +76,13 @@
                         <div class="col-md-5 AddOrSub">
                             <div class="SubtractAdd">
                                 <button class=" btnBeauty m-0 p-0">-</button>
-
                                 
                             </div>
                             <div class="SubtractAdd02">
                                 
                                 <button class=" btnBeauty m-0 p-0">+</button>
+                                <!-- <button (myClick)="clickMessage=$event" clickable class=" btnBeauty m-0 p-0">+</button>
+                                {{clickMessage}} -->
                             </div>
                             
                         </div>
@@ -188,7 +165,8 @@
 
             <div class="row lastBtn nextbttn fixed">
                 <div class="col-md-5 col-sm-12">
-                    <a class="btn btn-primary btn-lg " routerLink="/barcelona" >Next</a>
+                    <a id="traveling"class="btn btn-primary btn-lg next-btn" routerLinkActive="active" routerLink="/barcelona" >Next</a>
+                   
                 </div>
             </div>
             
@@ -203,24 +181,6 @@
     
     
     
-   
-    <!-- Bootstrap core JS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Core theme JS-->
-    <!-- <script src="js/scripts.js"></script> -->
-    
-
-    <!--Traveling -->
-    <script>
-function myFunction() {
-var x = document.getElementById("myDIV");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script> 
+  
 
 <app-footer></app-footer>

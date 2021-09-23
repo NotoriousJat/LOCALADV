@@ -1,0 +1,133 @@
+<app-header></app-header>
+
+<main class="PaymentDiv">
+    
+    <!-- <section class=" topBarMyProfileTickets ">
+        <div class="container">
+            <div class="row slectionSpcl ">
+                <div class="col-md-4  topLeft " style="width: 12%;margin: auto;" >
+                    <a routerLink="/tickets" ><img src="/assets/img/arrow left-left.svg " width=""></a>
+                </div>
+                <div class="col-md-8 backgroundClorBorder pl-0  ">
+                    <p class="text-left SubTotal MyProfile"></p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class=" topBarPaymentTickets ">
+        <div class="container">
+            <div class="row slectionSpcl ">
+                <div class="col-md-4  topLeft " style="width: 12%;margin: auto;" >
+                    <a routerLink="/confirmation" ><img src="/assets/img/arrow left-left.svg " width=""></a>
+                </div>
+                <div class="col-md-8 backgroundClorBorder pl-0  ">
+                    <p class="text-left SubTotal MyProfile"></p>
+                    <p class="SubTotal01"></p>
+                    <b class="FlotRight"> &nbsp; </b>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container SignInLogin">
+        <div  class="row ">
+            <div  class="col-5">
+                <h3  class="text-secondary ">
+                    <b >Payment</b>
+                </h3>
+            </div>
+            <div class="col-7 text-left m-auto">
+                <p class="m-auto">Total price</p>
+            </div>
+        </div>
+        </section>
+    <section class="container ">
+        <div class="row">
+            <div class="col-12 text-center" >
+                <p class="PaymentStyle" >2550 €</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container ">
+        <form>
+  <div class="form-group">
+   
+    <label class="Paymentsec" for="exampleInputEmail1">Method of payment</label>
+    <!-- <input type="text" class="form-control form-select name" id="exampleInputEmail1" aria-label="Default select example" aria-describedby="emailHelp" placeholder="John"> -->
+        <select class="form-control form-select" aria-label="Default select example">
+            <option selected> <img src="/assets/img/Visa_Inc._logo 2.svg " width="100%">VISA </option>
+            <option value="1">Debit Card</option>
+            <option value="2">Credit card</option>
+            <option value="3">PTM</option>
+        </select>
+  </div>
+  <br>
+  <br>
+  <div class="form-group">
+    <input type="email" class="form-control CvvStyle surname" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Cardholder name">
+    
+  </div>
+  <div class="form-group">
+    
+    
+    <input type="number" class="form-control CvvStyle email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Card number">
+    
+  </div>
+  <div class="form-group ">
+    
+    <input type="text" class="form-control CvvStyle" id="exampleInputPassword1" placeholder="Expire date">
+  </div>
+  <div class="form-group ">
+    
+    <input type="text" class="form-control CvvStyle" id="exampleInputPassword1" placeholder="CVV">
+  </div>
+  <!-- <div class="form-group margNBtom">
+    
+    <input type="text" class="form-control AddressHeight" id="exampleInputPassword1" placeholder="Address">
+  </div> -->
+</form>
+        
+    </section>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="SecureFirst">Our secure platform ensures your money gets to the activities.  We ask you to always pay through Local Advisor and never wire money or pay someone directly.
+                        
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="SecureText">SECURE ENCRYPTED TRANSACTIONS
+                        Click on the icon below to verify 
+                        the validity of our Secure Certificate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="GEOTRUSTicon">Secured by GEOTRUST icon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container m-auto">
+        <div  class="row text-center backPaymntstyle fixed">
+            <div  class="col-md-5 col-sm-12">
+                <a  routerlinkactive="active" routerlink="/confirmed" class="btn btn-primary btn-lg" ng-reflect-router-link="/confirmed" ng-reflect-router-link-active="active" href="#/confirmed">Buy tickets now </a>
+            </div>
+        </div>
+    </section>
+</main>
+<app-footer></app-footer>

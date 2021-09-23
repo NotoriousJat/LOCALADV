@@ -1,0 +1,11 @@
+.masthead2 {
+    background: #00BEAC;
+    padding-top: 70px;
+    height: 100vh;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

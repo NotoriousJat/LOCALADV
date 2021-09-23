@@ -1,0 +1,42 @@
+.bgColor{
+    /* height: 100vh; */
+    background-color: #333333;
+    margin-bottom: 0%;
+    height: 43pc;
+
+}
+.row.text-center.back.fixed {
+    display: flex;
+    flex-wrap: inherit;
+}
+.BlueSection{
+    background: #00BEAC;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.BlueSection2{
+    background: #00BEAC;
+}
+.BlueSection01{
+    background: #fff;
+    
+}
+.BlueSection03{
+    background: #fff;
+    border-bottom: 2px dashed #131313;
+}
+.TimeSchedule{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.DateSchedule{
+    color: #225563;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.TimeSchedule01{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}

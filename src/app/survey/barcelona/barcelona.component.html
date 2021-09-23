@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row slection ">
         <div class="col-md-6 col- topLeft">
-            <a routerLink="/traveling" ><img src="/assets/img/left-arrow.png "></a>
+            <a routerLink="/traveling" ><img src="/assets/img/left-arrow.png " width="15px" ></a>
         </div>
         <div class="col-md-6 col- topRight">
             <p>4<span class="listShow">/8</span></p>
@@ -18,10 +18,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="progress-container">
-
-                    <div class="progress-bar" id="myBar"></div>
-                </div>
+                
+                <div class="progress01">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
 
             </div>
 
@@ -59,18 +61,12 @@
                 </div>
             </div>
             </div>
-
             <div class="row lastBtn nextbttn fixed">
                 <div class="col-md-5 col-sm-12">
-                    <a class="btn btn-primary btn-lg " routerLink="/interest" >Next</a>
+                    <a id="barcelona" class="btn btn-primary btn-lg " routerLinkActive="active" routerLink="/interest" >Next</a>
                 </div>
             </div>
-            
-
         </div>
-
-       
-
     </section>
 
     

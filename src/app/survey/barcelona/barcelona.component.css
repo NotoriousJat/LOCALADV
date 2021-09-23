@@ -10,4 +10,11 @@
 }
 .margiBtom{
     margin-bottom: 30%;
+    
+}
+.caption:hover {
+    border: 2px solid #00BEAC;
+    border-radius: 5px;
+    padding: 5px;
+    height: 80px;
 }
